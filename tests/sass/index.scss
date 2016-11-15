@@ -1,0 +1,9 @@
+@import 'true';
+
+// Custom functions
+@import '../../app/styles/functions/color.white';
+
+// Actual tests
+@import './white.spec';
+
+@include report;
