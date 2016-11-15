@@ -1,6 +1,10 @@
 # MacOS Operating System
 .DS_Store
 
+# Exclude build/ and development folder from Git
+.tmp/
+dist/
+
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules/
