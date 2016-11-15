@@ -6,7 +6,9 @@
   "scripts": {
     "build": "gulp build",
     "clean": "gulp clean",
-    "lint:js": "eslint .",
+    "coverage": "nyc --reporter=lcov --reporter=html --reporter=text-summary npm test",
+    "coverage:check": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "lint:js": "eslint *.js app tests",
     "lint:sass": "sass-lint --config .scss-lint.yml --verbose --no-exit",
     "pretest": "npm run lint:js && npm run lint:sass",
     "start": "gulp serve",
@@ -61,6 +63,7 @@
     "gulp-useref": "^3.1.2",
     "mocha": "^3.1.2",
     "node-sass": "^3.12.4",
+    "nyc": "^9.0.1",
     "sass-lint": "^1.10.2",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
@@ -69,5 +72,10 @@
     "ghooks": {
       "pre-commit": "npm test"
     }
+  },
+  "nyc": {
+    "exclude": [
+      "tests/"
+    ]
   }
 }
