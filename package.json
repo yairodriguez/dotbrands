@@ -1,0 +1,30 @@
+{
+  "name": "dotbrands",
+  "version": "1.0.0",
+  "description": "The World Most Iconic Brands In Dot",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "sass-lint --config .scss-lint.yml --verbose --no-exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yairodriguez/dotbrands.git"
+  },
+  "keywords": [
+    "Brands",
+    "Dots",
+    "ES6",
+    "Gulp",
+    "Sass"
+  ],
+  "author": "Yair Rodriguez <@imyairodriguez>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yairodriguez/dotbrands/issues"
+  },
+  "homepage": "https://github.com/yairodriguez/dotbrands#readme",
+  "devDependencies": {
+    "node-sass": "^3.12.4",
+    "sass-lint": "^1.10.2"
+  }
+}
