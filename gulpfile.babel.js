@@ -234,7 +234,7 @@ gulp.task('sass', ['sass:lint'], () => {
       browsers: ['> 1%', 'last 5 versions', 'Firefox ESR']
     }))
     .pipe($.sourcemaps.write())
-    .pipe($.rename('wofny.css'))
+    .pipe($.rename('dotbrands.css'))
     .pipe(gulp.dest('.tmp/styles'))
     .pipe(reload({ stream: true }))
     .pipe($.notify({
