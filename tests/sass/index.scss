@@ -2,8 +2,10 @@
 
 // Custom functions
 @import '../../app/styles/functions/color.white';
+@import '../../app/styles/functions/color.black';
 
 // Actual tests
 @import './white.spec';
+@import './black.spec';
 
 @include report;

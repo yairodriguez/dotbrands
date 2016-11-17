@@ -1,0 +1,16 @@
+@include test-module('Sass :: color.black') {
+  @include test('Should return the appropiate white rgba color with $opacity') {
+    $actual: black(0.9);
+    $expected: rgba(0, 0, 0, 0.9);
+
+    @include assert-equal($actual, $expected);
+  };
+
+  @include test('Should return the default value when an opacity value is not provided') {
+    $actual: black(); // sass-lint:disable-line empty-args
+    $expected: rgba(0, 0, 0, 1);
+
+    @include assert-equal($actual, $expected);
+  };
+}
+
