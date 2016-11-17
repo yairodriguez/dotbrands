@@ -1,0 +1,9 @@
+@charset 'utf-8';
+
+.section {
+  height: 100vh;
+
+  &--twitter {
+    background-color: black(0.95);
+  }
+}

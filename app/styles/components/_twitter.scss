@@ -1,0 +1,17 @@
+@charset 'utf-8';
+
+[id='twitter'] {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: calc(6px * 29);
+
+  .point {
+    &.active {
+      background-color: white(0.9);
+    }
+  }
+}
