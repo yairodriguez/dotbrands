@@ -1,6 +1,6 @@
 let markup = '';
 
-const generator = {
+const factory = {
   init (id) {
     document.getElementById(id).innerHTML = markup;
   },
@@ -15,4 +15,4 @@ const generator = {
   },
 };
 
-export default generator;
+export default factory;
