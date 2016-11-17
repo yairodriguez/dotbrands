@@ -1,7 +1,7 @@
 import { expect } from 'chai';
-import coordinates from '../../app/scripts/maps/twitter';
+import coordinates from '../../app/scripts/maps/apple';
 
-describe('Coordinates :: Twitter', () => {
+describe('Coordinates :: Apple', () => {
   it('should be an instance of Array', () => {
     expect(coordinates).to.be.an.instanceof(Array);
   });
