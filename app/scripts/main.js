@@ -1,4 +1,6 @@
-import appleCoordinates from './maps/apple';
-import factory from './factory';
+import Factory from './factory/index';
+import CONFIG from './config';
 
-const apple = factory.create('apple', appleCoordinates); // eslint-disable-line no-unused-vars
+/* eslint-disable no-unused-vars */
+const Apple = Factory.create(CONFIG.apple);
+/* eslint-enable no-unused-vars */
