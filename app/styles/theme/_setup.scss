@@ -1,0 +1,26 @@
+@charset 'utf-8';
+
+* {
+  &,
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}

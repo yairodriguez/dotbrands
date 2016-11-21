@@ -1,0 +1,8 @@
+@charset 'utf-8';
+
+.point {
+  border-radius: 50%;
+  height: $BULLET_SIZE; // sass-lint:disable-line variable-name-format
+  margin: 1px;
+  width: $BULLET_SIZE; // sass-lint:disable-line variable-name-format
+}
