@@ -1,0 +1,9 @@
+@include test-module('Sass :: palette') {
+  @include test('Should return the appropiate HEX value from array') {
+    $actual: palette(dodger-blue);
+    $expected: #1DA1F2;
+
+    @include assert-equal($actual, $expected);
+  };
+}
+
