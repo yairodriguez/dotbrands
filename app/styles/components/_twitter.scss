@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+[id='twitter'] {
+  width: calc(6px * 32);
+
+  .point {
+    &.active {
+      background-color: palette(dodger-blue);
+    }
+  }
+}
