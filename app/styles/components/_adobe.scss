@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+[id='adobe'] {
+  width: calc(6px * 35);
+
+  .point {
+    &.active {
+      background-color: white(0.9);
+    }
+  }
+}
