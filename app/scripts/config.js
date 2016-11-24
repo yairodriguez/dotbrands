@@ -1,6 +1,7 @@
 import APPLE_COORDINATES from './maps/apple';
 import TWITTER_COORDINATES from './maps/twitter';
 import ADOBE_COORDINATES from './maps/adobe';
+import PEPSI_COORDINATES from './maps/pepsi';
 
 export default {
   apple: {
@@ -14,5 +15,9 @@ export default {
   adobe: {
     id: 'adobe',
     coordinates: ADOBE_COORDINATES,
+  },
+  pepsi: {
+    id: 'pepsi',
+    coordinates: PEPSI_COORDINATES,
   },
 };

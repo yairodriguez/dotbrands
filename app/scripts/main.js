@@ -5,4 +5,5 @@ import CONFIG from './config';
 const Apple = Factory.create(CONFIG.apple);
 const Twitter = Factory.create(CONFIG.twitter);
 const Adobe = Factory.create(CONFIG.adobe);
+const Pepsi = Factory.create(CONFIG.pepsi);
 /* eslint-enable no-unused-vars */
