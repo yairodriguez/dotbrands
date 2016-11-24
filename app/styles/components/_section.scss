@@ -6,4 +6,8 @@
   &--apple {
     background-color: black(0.95);
   }
+
+  &--adobe {
+    background-color: palette(red); // sass-lint:disable-line no-color-keywords, no-color-literals
+  }
 }

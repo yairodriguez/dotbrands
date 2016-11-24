@@ -1,5 +1,6 @@
 import APPLE_COORDINATES from './maps/apple';
 import TWITTER_COORDINATES from './maps/twitter';
+import ADOBE_COORDINATES from './maps/adobe';
 
 export default {
   apple: {
@@ -9,5 +10,9 @@ export default {
   twitter: {
     id: 'twitter',
     coordinates: TWITTER_COORDINATES,
+  },
+  adobe: {
+    id: 'adobe',
+    coordinates: ADOBE_COORDINATES,
   },
 };
