@@ -3,6 +3,7 @@ import TWITTER_COORDINATES from './maps/twitter';
 import ADOBE_COORDINATES from './maps/adobe';
 import PEPSI_COORDINATES from './maps/pepsi';
 import MASTERCARD_COORDINATES from './maps/mastercard';
+import MCDONALDS_COORDINATES from './maps/mcdonalds';
 
 export default {
   apple: {
@@ -24,5 +25,9 @@ export default {
   mastercard: {
     id: 'mastercard',
     coordinates: MASTERCARD_COORDINATES,
+  },
+  mcdonalds: {
+    id: 'mcdonalds',
+    coordinates: MCDONALDS_COORDINATES,
   },
 };
