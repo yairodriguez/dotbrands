@@ -7,4 +7,5 @@ const Twitter = Factory.create(CONFIG.twitter);
 const Adobe = Factory.create(CONFIG.adobe);
 const Pepsi = Factory.create(CONFIG.pepsi);
 const MasterCard = Factory.create(CONFIG.mastercard);
+const McDonalds = Factory.create(CONFIG.mcdonalds);
 /* eslint-enable no-unused-vars */
