@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+[id='mastercard'] {
+  width: calc(6px * 38);
+
+  .point {
+    &.red {
+      background-color: palette(eboo);
+    }
+
+    &.yellow {
+      background-color: palette(tree-poppy);
+    }
+
+    &.orange {
+      background-color: palette(blaze-orange);
+    }
+  }
+}
