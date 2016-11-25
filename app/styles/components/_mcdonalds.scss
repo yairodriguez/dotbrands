@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+[id='mcdonalds'] {
+  width: calc(6px * 40);
+
+  .point {
+    &.active {
+      background-color: palette(gold); // sass-lint:disable-line no-color-literals, no-color-keywords
+    }
+  }
+}

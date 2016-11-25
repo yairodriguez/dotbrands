@@ -8,7 +8,8 @@
     background-color: black(0.95);
   }
 
-  &--adobe {
+  &--adobe,
+  &--mcdonalds {
     background-color: palette(red); // sass-lint:disable-line no-color-keywords, no-color-literals
   }
 }
