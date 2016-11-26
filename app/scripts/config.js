@@ -4,6 +4,7 @@ import ADOBE_COORDINATES from './maps/adobe';
 import PEPSI_COORDINATES from './maps/pepsi';
 import MASTERCARD_COORDINATES from './maps/mastercard';
 import MCDONALDS_COORDINATES from './maps/mcdonalds';
+import MICROSOFT_COORDINATES from './maps/microsoft';
 
 export default {
   apple: {
@@ -29,5 +30,9 @@ export default {
   mcdonalds: {
     id: 'mcdonalds',
     coordinates: MCDONALDS_COORDINATES,
+  },
+  microsoft: {
+    id: 'microsoft',
+    coordinates: MICROSOFT_COORDINATES,
   },
 };

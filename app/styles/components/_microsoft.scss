@@ -1,0 +1,23 @@
+@charset 'utf-8';
+
+[id='microsoft'] {
+  width: calc(6px * 23);
+
+  .point {
+    &.red {
+      background-color: palette(flamingo);
+    }
+
+    &.green {
+      background-color: palette(pistachio);
+    }
+
+    &.blue {
+      background-color: palette(cerulean);
+    }
+
+    &.yellow {
+      background-color: palette(amber);
+    }
+  }
+}

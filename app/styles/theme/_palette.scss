@@ -1,11 +1,17 @@
 @charset 'utf-8';
 
 $palette: (
+  amber:              #FFC300,
+  bahama-blue:        #005891,
   blaze-orange:       #FF5F00,
   blue:               #00F, // sass-lint:disable-line no-color-keywords
+  cerulean:           #00B4F1,
+  crimson:            #EB1D39, // sass-lint:disable-line no-color-keywords
   dodger-blue:        #1DA1F2,
   eboo:               #EB001B,
+  flamingo:           #F8682C,
   gold:               #FFD600, // sass-lint:disable-line no-color-keywords
+  pistachio:          #91C300,
   red:                #F00, // sass-lint:disable-line no-color-keywords
   tree-poppy:         #F79E1B
 );
