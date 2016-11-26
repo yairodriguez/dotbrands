@@ -9,4 +9,5 @@ const Pepsi = Factory.create(CONFIG.pepsi);
 const MasterCard = Factory.create(CONFIG.mastercard);
 const McDonalds = Factory.create(CONFIG.mcdonalds);
 const Microsoft = Factory.create(CONFIG.microsoft);
+const Mitsubishi = Factory.create(CONFIG.mitsubishi);
 /* eslint-enable no-unused-vars */
