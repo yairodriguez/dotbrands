@@ -5,6 +5,7 @@ import PEPSI_COORDINATES from './maps/pepsi';
 import MASTERCARD_COORDINATES from './maps/mastercard';
 import MCDONALDS_COORDINATES from './maps/mcdonalds';
 import MICROSOFT_COORDINATES from './maps/microsoft';
+import MITSUBISHI_COORDINATES from './maps/mitsubishi';
 
 export default {
   apple: {
@@ -34,5 +35,9 @@ export default {
   microsoft: {
     id: 'microsoft',
     coordinates: MICROSOFT_COORDINATES,
+  },
+  mitsubishi: {
+    id: 'mitsubishi',
+    coordinates: MITSUBISHI_COORDINATES,
   },
 };
