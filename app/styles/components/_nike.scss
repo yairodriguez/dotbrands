@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+[id='nike'] {
+  width: calc(6px * 47);
+
+  .point {
+    &.active {
+      background-color: white(0.95);
+    }
+  }
+}
