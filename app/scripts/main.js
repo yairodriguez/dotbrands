@@ -10,4 +10,5 @@ const MasterCard = Factory.create(CONFIG.mastercard);
 const McDonalds = Factory.create(CONFIG.mcdonalds);
 const Microsoft = Factory.create(CONFIG.microsoft);
 const Mitsubishi = Factory.create(CONFIG.mitsubishi);
+const Playboy = Factory.create(CONFIG.playboy);
 /* eslint-enable no-unused-vars */

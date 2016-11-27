@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+[id='playboy'] {
+  width: calc(6px * 23);
+
+  .point {
+    &.active {
+      background-color: black(0.95);
+    }
+  }
+}
