@@ -7,6 +7,7 @@ import MCDONALDS_COORDINATES from './maps/mcdonalds';
 import MICROSOFT_COORDINATES from './maps/microsoft';
 import MITSUBISHI_COORDINATES from './maps/mitsubishi';
 import PLAYBOY_COORDINATES from './maps/playboy';
+import NIKE_COORDINATES from './maps/nike';
 
 export default {
   apple: {
@@ -40,6 +41,10 @@ export default {
   mitsubishi: {
     id: 'mitsubishi',
     coordinates: MITSUBISHI_COORDINATES,
+  },
+  nike: {
+    id: 'nike',
+    coordinates: NIKE_COORDINATES,
   },
   playboy: {
     id: 'playboy',
