@@ -1,15 +1,15 @@
 @charset 'utf-8';
 
 [id='pepsi'] {
-  width: calc(6px * 30);
+  width: calc(6px * 31);
 
   .point {
     &.red {
-      background-color: palette(red); // sass-lint:disable-line no-color-literals, no-color-keywords
+      background-color: palette(crimson); // sass-lint:disable-line no-color-literals, no-color-keywords
     }
 
     &.blue {
-      background-color: palette(blue); // sass-lint:disable-line no-color-literals, no-color-keywords
+      background-color: palette(bahama-blue);
     }
   }
 }
